@@ -24,19 +24,19 @@ public class SKUDetails implements Serializable{
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-
-	public SKUDetails() {
-	}
-
-	public SKUDetails(Long skuId, String skuDetails, String location, String department, String category,
-			String subCategory) {
-		this.skuId = skuId;
-		this.skuDetails = skuDetails;
-		this.location = location;
-		this.department = department;
-		this.category = category;
-		this.subCategory = subCategory;
-	}
+//
+//	public SKUDetails() {
+//	}
+//
+//	public SKUDetails(Long skuId, String skuDetails, String location, String department, String category,
+//			String subCategory) {
+//		this.skuId = skuId;
+//		this.skuDetails = skuDetails;
+//		this.location = location;
+//		this.department = department;
+//		this.category = category;
+//		this.subCategory = subCategory;
+//	}
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)

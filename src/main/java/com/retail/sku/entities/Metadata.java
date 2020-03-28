@@ -21,16 +21,16 @@ import lombok.NoArgsConstructor;
 public class Metadata implements Serializable{
 	
 	
-	
-	public Metadata() {
-	}
-
-	public Metadata(String location, String department, String category, String subCategory) {
-		this.location = location;
-		this.department = department;
-		this.category = category;
-		this.subCategory = subCategory;
-	}
+//	
+//	public Metadata() {
+//	}
+//
+//	public Metadata(String location, String department, String category, String subCategory) {
+//		this.location = location;
+//		this.department = department;
+//		this.category = category;
+//		this.subCategory = subCategory;
+//	}
 
 	/**
 	 * 
